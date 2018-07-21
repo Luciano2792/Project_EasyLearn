@@ -1,0 +1,18 @@
+body{
+	background-color: #69C0DC;
+}
+.firstcolor{
+	background-color: #083198;
+	color: #FFF;
+	text-align: center;
+}
+.register{
+	text-align: center;
+	background-color: #083198;
+	color: #FFF;
+	padding: 50px;
+	margin-top: 20px;
+}
+h1{
+	font-size: 85px;
+}

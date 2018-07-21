@@ -42,6 +42,7 @@ button:hover{
 	border-radius: 20px;
 	color: #083198;
 	background-color: #FFF;
+	cursor: pointer;
 }
 .imgspace{
 	padding-bottom: 
