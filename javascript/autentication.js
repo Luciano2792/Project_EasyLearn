@@ -41,10 +41,10 @@ jQuery(document).ready(function($){
 				.auth()
 				.createUserWithEmailAndPassword(email, password)
 				.then(function() {
-					alert('Has sido registrado exitosamente :D');
+					$('.message').append('<img src="../Sources/check.png" widht="20px" height="20px"> Has sido registrado exitosamente');
 				})
 				.catch(function(error) {
-					alert("Ocurrio un error inesperado");
+					$('.message').append("Error: " + error);
 				});
 			}
 		}
