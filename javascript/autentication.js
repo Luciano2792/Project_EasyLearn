@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
 					$('.message').append('<img src="../Sources/check.png" widht="20px" height="20px"> Has sido registrado exitosamente');
 				})
 				.catch(function(error) {
-					$('.message').append("Error: " + error);
+					$('.message').append(error);
 				});
 			}
 		}
