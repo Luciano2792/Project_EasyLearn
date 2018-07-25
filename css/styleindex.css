@@ -1,7 +1,7 @@
 body{
 	background-color: #69C0DC;
 }
-header,h5,p{
+header,h5{
 	text-align: center;
 }
 h1,h5,h6,p{
@@ -15,7 +15,7 @@ h1{
 	background-color: #1470C1;
 }
 .description{
-	width: 60%;
+	width: 40%;
 	margin: 0 auto;
 	padding: 15px 0;
 }
@@ -45,5 +45,10 @@ button:hover{
 	cursor: pointer;
 }
 .imgspace{
-	padding-bottom: 102.5px;
+	padding-bottom: 25.5px;
+}
+.line{
+	background-color: #69C0DC;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
 }

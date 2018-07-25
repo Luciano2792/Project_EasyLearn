@@ -31,6 +31,8 @@ h4{
 #backgroundyellow{
 	background-color: #C1BF2A;
 	padding-bottom: 20px;
+	color: #FFF;
+	text-align: center;
 }
 .second{
 	color: #FFF;
@@ -43,6 +45,8 @@ h4{
 #backgroundorange{
 	background-color: #CC7608;
 	padding-bottom: 20px;
+	color: #FFF;
+	text-align: center;
 }
 .third{
 	color: #FFF;
@@ -58,4 +62,6 @@ h4{
 #backgroundred{
 	background-color: #AD0101;
 	padding-bottom: 20px;
+	color: #FFF;
+	text-align: center;
 }
