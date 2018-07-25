@@ -1,0 +1,38 @@
+.firstcolor{
+    background-color: #C1BF2A;
+    color: #FFF;
+    text-align: center;
+}
+body{
+    background-color: #E9E603;
+}
+h1{
+    font-size: 85px;
+    padding-top: 20px;
+}
+#margin{
+    margin-top: 20px;
+}
+#title{
+    font-size: 90px;
+    color: rgb(221, 6, 6);
+    margin: 35px 0 0 150px;
+}
+button{
+    background-color: #DF8B00;
+    border: 0;
+    color: #FFF;
+    padding: 119px 0 0;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #FFF;
+    color: #DF8B00;
+}
+.center{
+    text-align: center;
+    margin-top: 65px;
+}
+h3{
+    font-size: 60px;
+}
