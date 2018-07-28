@@ -6,7 +6,8 @@ $(".firstbutton").click(function(){
 });
 
 $("#secondbutton").click(function(){
-    $("#restar").append("<div class='col-md-12'><h2 id='title'>Restar</h2></div><div class='col-md-12' style='text-align: center;'><p style='padding-bottom: 50px;'><strong>Tomemos el mismo ejemplo de arriba, pero en lugar de que tu amigo te de 2 manzanas, tú le das 2 manzanas a él. Ahora, ¿Cuántas manzanas tienes tú?. Exacto, tendrías sólo 2 (4-2=2), pero ¿Por qué esto?; resulta que la resta consiste en tomar un número y quitarle otro número, es decir, restando el valor del número inicial con el valor </strong></p></div></div> <br> <div class='row'><div class='col-md-12'><form><label> <strong> Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> <br> <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta'> </form> </div></div>");
+    $("#restar").append("<div class='col-md-12'><h2 id='title'>Restar</h2></div><div class='col-md-12' style='text-align: center;'><p style='padding-bottom: 50px;'><strong>Tomemos el mismo ejemplo de arriba, pero en lugar de que tu amigo te de 2 manzanas, tú le das 2 manzanas a él. Ahora, ¿Cuántas manzanas tienes tú?. Exacto, tendrías sólo 2 (4-2=2), pero ¿Por qué esto?; resulta que la resta consiste en tomar un número y quitarle otro número, es decir, restando el valor del número inicial con el valor </strong></p></div></div>");
+    $(".question").prop("hidden", false);
     $(".2button").remove(".2button");
     $("#thirdbutton").prop("hidden", false);
 });
