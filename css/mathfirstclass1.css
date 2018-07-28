@@ -18,13 +18,13 @@ h1{
     color: rgb(221, 6, 6);
     margin: 35px 0 0 150px;
 }
-button{
+.grandbutton{
     background-color: #DF8B00;
     border: 0;
     color: #FFF;
     padding: 119px 0 0;
 }
-button:hover{
+.grandbutton:hover{
     cursor: pointer;
     background-color: #FFF;
     color: #DF8B00;
@@ -35,4 +35,7 @@ button:hover{
 }
 h3{
     font-size: 60px;
+}
+#subtitle{
+    font-size: 50px;
 }
