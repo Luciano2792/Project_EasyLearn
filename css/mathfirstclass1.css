@@ -51,14 +51,14 @@ h3{
 label{
     display: inline;
 }
-button{
+#bsubmit{
     border: 4px solid #C1BF2A;
 	border-radius: 100px;
 	color: #FFF;
     background-color: #C1BF2A;
     text-align: center;
 }
-button:hover{
+#bsubmit:hover{
 	border: 4px solid #C1BF2A;
 	border-radius: 100px;
 	color: #C1BF2A;
