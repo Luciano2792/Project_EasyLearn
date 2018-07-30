@@ -6,7 +6,7 @@ body{
     color: #FFF;
     text-align: center;
 }
-#marginfix{
+#marginfix, #fixmargin{
     margin: 20px auto;
 }
 h1{
@@ -16,7 +16,6 @@ h1{
     font-size: 50px;
 }
 .stylebutton{
-    margin: 20px 0;
     background-color: #AD0101;
     color: #FFF;
     border: 0;
@@ -29,4 +28,9 @@ h1{
 }
 h3{
     font-size: 60px;
+}
+#title{
+    color: #E9E603;
+    font-size: 90px;
+    margin: 35px 0 0 150px;
 }
