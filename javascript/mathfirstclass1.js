@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
            	var feedback = $('#exp').val();
 
                var user_fb = {
-                       feedback:$('#exp').val();
+                       feedback:$('#exp').val(),
                    };
                    database.ref('feedbacks').push(feedback);
                    $("#thanks").append("<strong> Gracias! </strong>");
