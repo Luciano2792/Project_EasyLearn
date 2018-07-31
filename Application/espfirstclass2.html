@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>EasyLearn | Aprende facil</title>
-    <!--Bootstrap y css-->
+    <!--Bootstrap and css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/espfirstclass1.css">
 </head>
@@ -38,14 +38,60 @@
                 <h2 id="title" hidden>Signos de puntuación</h2>
             </div>
         </div>
-    </section>
-    <section class="container">
-        <div class="row justify-content-between" id="theme2">
+        <div class="row justify-content-between" id="theme2" hidden>
             <div class="col-md-7">
-                <p><strong>A la hora de presentar una carta a una persona importante o una empresa es imprescindible darse a entender y ser claros con lo que escribimos ahí. Los signos de puntuación sirven para esto, separar ideas que estemos tratando de decir en un párrafo o en una frase; éstos son totalmente imprescindibles a la hora de redactar un párrafo o una frase, con un simple punto mal puesto puedes echar a perder la idea de toda una frase. Los signos de puntuación más usados a la hora de estructurar una frase son:</strong></p>
-                <p><strong>-La coma [,]: Para el lector, la coma se entiende como una pausa breve al texto que se está leyendo y sirve para separar componentes de la oración; si no se separan, se pierde el sentido de la oración y no se comprendería la idea principal que quiere transmitir esa oración</strong></p>
+                <p><strong>A la hora de presentar una carta a una persona importante o una empresa es imprescindible darse a entender y ser claros con lo que escribimos ahí. Los signos de puntuación sirven para esto, separar ideas que estemos tratando de decir en un párrafo o en una frase; son totalmente imprescindibles a la hora de redactar un párrafo o una frase, su mal uso puede echar a perder la idea de toda una frase. Los signos de puntuación más usados a la hora de estructurar una oración son:</strong></p>
+                <p><strong>-La coma [,]: La coma se entiende como una pausa breve al párrafo que se está leyendo y tiene como función separar componentes de la oración para mejor comprensión del párrafo</strong></p>
+                <p><strong>-El punto [.]: Se entiende el punto como una pausa larga al párrafo que se lee. Hay 2 tipos de puntos: el punto seguido (Sirve para separar oraciones de un párrafo) y, el punto aparte (Sirve para separar párrafos). </strong></p>
+                <p><strong>-El signo de interrogación [¿?]: Sirve para señalar una pregunta en nuestra oración y debe abrirse y cerrarse respectivamente en la parte correspondiente a la pregunta.</strong></p>
+                <p><strong>-El signo de exclamación [¡!]: Sirve para señalar en el párrafo una sorpresa, asombro, alegría, súplica, mandato, deseo, etc. Estos signos de exclamación también se deben abrir y cerrar en la parte correspondiente a la exclamación.</strong></p>
+            </div>
+            <div class="col-md-4">
+                <img src="../Sources/signos.jpg" width="100%">
+                <br>
+                <br>
+                <img src="../Sources/la-guia-de-los-signos-de-puntuacion-los-errores-mas-comunes-explicados.jpg" width="100%">
             </div>
         </div>
     </section>
+    <section class="container">
+        <br>
+         <div class='row question' hidden>
+               <div class='col-md-12'>
+                   <form>
+                       <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                       <br> 
+                       <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
+                       <button id="feedback"><strong>Enviar</strong></button>
+                       <br>
+                       <div id="thanks"></div>
+                   </form> 
+               </div>
+           </div>
+   </section>
+   <!--Buttons-->
+    <section class="container firstcolor" id="fixmargin">
+        <div class="row">
+            <button class="col-md-12 stylebutton" id="firstbutton">
+                <h3><strong>Pulsa aquí para continuar</strong></h3>
+            </button>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <button class="col-md-12 stylebutton" id="secondbutton" onclick="location.href='espfirstclass3.html'" hidden>
+                <h3><strong>Siguiente --></strong></h3>
+            </button>
+        </div>
+    </section>
+    <!--JQuery Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--Firebase Scripts-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+	<script src="../javascript/firebase.js"></script>
+    <!--Local Script-->
+    <script src="../javascript/espfirstclass2.js"></script>
 </body>
 </html>
