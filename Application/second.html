@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>EasyLearn | Aprende facil</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/style1selector.css">
+	<link rel="stylesheet" type="text/css" href="../css/stylefirst.css">
 </head>
 <body>
     <header class="container firstcolor">
@@ -15,37 +15,39 @@
                 <h1>EasyLearn</h1>
                 <h5>Aprende a tu ritmo, facil y sencillo</h5>
             </div>
-        </div>
+        </div>	
     </header>
-    <section class="container">
+    <div class="container question">
         <div class="row">
-            <div class="col-md-12 question">
-                <h2>¿Qué clase de conceptos buscas?</h2>
+            <div class="col-md-12">
+                <h2>¿Qué deseas aprender hoy?</h2>
             </div>
         </div>
-    </section>
-    <section class="container">
-        <div class="row">
-            <button class="col-md-12 first" onclick="location.href='first.html'">
-                <h4>Básica primaria</h4>
+    </div>
+    <section class="container buttons">
+        <div class="row justify-content-between">
+            <button class="col-md-5 math" onclick="location.href='mathsecondclass1.html'">
+                <h3>Matemáticas</h3>
             </button>
-            <div class="col-md-12" id="backgroundyellow"></div>
+            <button class="col-md-5 esp" onclick="location.href=''">
+                <h3>Lengua Castellana</h3>
+            </button>
         </div>
     </section>
     <section class="container">
-        <div class="row">
-            <button class="col-md-12 second" onclick="location.href='second.html'">
-                <h4>Básica secundaria</h4>
-            </button>
-            <div class="col-md-12" id="backgroundorange"></div>
+        <div class="row justify-content-between">
+            <div class="col-md-5" id="backgroundyellow"></div>
+            <div class="col-md-5" id="backgroundred"></div>
         </div>
     </section>
+    <br>
+    <br>
     <section class="container">
         <div class="row">
-            <button class="col-md-12 third">
-                <h4>Preparatoria</h4>
+            <button class="col-md-12 back" onclick="location.href='selector.html'">
+                <h2 id="titleb"><strong>Atrás</strong></h2>
             </button>
-            <div class="col-md-12" id="backgroundred"></div>
         </div>
     </section>
+</body>
 </html>
