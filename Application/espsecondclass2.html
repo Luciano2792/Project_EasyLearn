@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EasyLearn | Aprende facil</title>
+    <!--Bootrstap and css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/espfirstclass1.css">
+</head>
+<body>
+    <header class="container firstcolor">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <h1>EasyLearn</h1>
+                <h5>Aprende a tu ritmo, facil y sencillo</h5>
+            </div>
+        </div>	
+    </header>
+    <section class="container firstcolor" id="marginfix">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="subtitle">Básica Secundaria</h2>
+                </div>
+            </div>
+    </section>
+    <section class="container firstcolor">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Conceptos básicos</h2>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="title" hidden>Palabras homófonas</h2>
+            </div>
+        </div>
+        <div class="row justify-content-between" id="theme2" hidden>
+            <div class="col-md-7"> 
+                <p><strong>Imagino que te habrá pasado a ti o habrás visto el típico caso donde tú dices una palabra y los demás la comprenden, pero con un significado diferente al que querías transmitir. Lo más probable es que haya sucedido debido a que usaste una palabra homófona. Esto es básicamente lo que significa una palabra homófona, una palabra que al pronunciar suena igual, pero al momento de escribir son totalmente distintas. Un ejemplo claro de ésto son palabras como hay, que tiene palabras homófonas como ahí y ay, y muchas más palabras homófonas que existen.</strong></p>
+            </div>
+            <div class="col-md-4">
+                <img src="../Sources/palabras-homofonas.jpg" width="100%">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="viewtitle" id="title" hidden>El adjetivo</h2>
+            </div>
+        </div>
+        <div class="row justify-content-between" id="theme3" hidden>
+            <div class="col-md-7">
+                <p><strong>Los adjetivos son las palabras que acompañan al sustantivo en una oración o un párrafo que lo califica de alguna manera haciendo ver sus propiedades y/o características dependiendo del adjetivo que se use en la oración. Un ejemplo de esto es decir, por ejemplo: él es muy lindo o ella es muy linda; en este caso el adjetivo sería lindo/linda debido a que los está calificando y está hablando de las características que éstos poseen.</strong></p>
+            </div>
+            <div class="col-md-4">
+                <img src="../Sources/opposite-adjective-sad-happy-illustration-61504805.jpg" width="100%">
+            </div>
+        </div>
+    </section>
+    <section class="container">
+            <br>
+             <div class='row question' hidden>
+                   <div class='col-md-12'>
+                       <form>
+                           <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                           <br> 
+                           <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
+                           <button id="feedback">Enviar</button>
+                           <br>
+                           <div id="thanks"></div>
+                       </form> 
+                   </div>
+               </div>
+       </section>
+    <!--Buttons-->
+        <section class="container firstcolor" id="fixmargin">
+            <div class="row">
+                <button class="col-md-12 stylebutton" id="firstbutton">
+                    <h3><strong>Pulsa aquí para empezar</strong></h3>
+                </button>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <button class="col-md-12 stylebutton" id="secondbutton" onclick="location.href='espsecondclass2.html'" hidden>
+                    <h3><strong>Siguiente --></strong></h3>
+                </button>
+            </div>
+        </section>
+    <!--JQuery Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--Firebase Scripts-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+	<script src="../javascript/firebase.js"></script>
+    <!--Local Script-->
+    <script src="../javascript/espsecondclass2.js"></script>
+</body>
+</html>

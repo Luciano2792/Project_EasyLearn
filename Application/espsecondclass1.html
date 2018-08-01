@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>EasyLearn | Aprende facil</title>
+    <!--Bootstrap y css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/espfirstclass1.css">
 </head>
 <body>
     <header class="container firstcolor">
@@ -37,15 +40,57 @@
         </div>
         <div class="row justify-content-between" id="theme1" hidden>
             <div class="col-md-7"> 
-                <p><strong></strong></p>
+                <p><strong>Los sinónimos, sin profundizar mucho en ello, es tomar una palabra y reunir palabras relacionadas que signifiquen lo mismso, pero que sean palabras totalmente diferentes a la primera. Por ejemplo: Voy a tomar la palabra amor y voy a buscar palabras que signifiquen lo mismo o esté muy cerca al significado, algunos sinónimos de amor serían: cariño, afecto, amistad, etc.</strong></p>
+                <p><strong>En cambio, los antónimos es tomar la misma palabra y buscar significados totalmente contrarios a lo que realmente significa la palabra. Volvamos a coger la palabra amor, algunos de sus antónimos serían: repugnancia, odio, desprecio, etc.</strong></p>
+                <p><strong>La utilidad que tienen los sinónimos y los antónimos en un caso particular donde estemos redactando un texto, o algo parecido es que no repitamos tanto una palabra en una oración o un párrafo, la idea con los sinónimos y los antónimos es que busques palabras que signifiquen lo mismo o muy parecido, pero que sean palabras distintas a lo habitual en tu párrafo</strong></p>
             </div>
             <div class="col-md-4">
-                <img src="">
+                <img src="../Sources/c47ae5e38a7a75d3ce0edd8d61307db8.jpg" width="100%">
                 <br>
                 <br>
-                <img src="">
+                <img src="../Sources/images.png" width="100%">
             </div>
         </div>
     </section>
+    <section class="container">
+        <br>
+         <div class='row question' hidden>
+               <div class='col-md-12'>
+                   <form>
+                       <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                       <br> 
+                       <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
+                       <button id="feedback">Enviar</button>
+                       <br>
+                       <div id="thanks"></div>
+                   </form> 
+               </div>
+           </div>
+   </section>
+    <!--Buttons-->
+    <section class="container firstcolor" id="fixmargin">
+        <div class="row">
+            <button class="col-md-12 stylebutton" id="firstbutton">
+                <h3><strong>Pulsa aquí para empezar</strong></h3>
+            </button>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <button class="col-md-12 stylebutton" id="secondbutton" onclick="location.href='espsecondclass2.html'" hidden>
+                <h3><strong>Siguiente --></strong></h3>
+            </button>
+        </div>
+    </section>
+    
+    <!--JQuery Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--Firebase Scripts-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+	<script src="../javascript/firebase.js"></script>
+    <!--Local Script-->
+    <script src="../javascript/espfirstclass1.js"></script>
 </body>
 </html>
