@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EasyLearn | Aprende facil</title>
+    <!--Bootstrap and css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/mathfirstclass1.css">
+</head>
+<body>
+        <header class="container firstcolor">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <h1>EasyLearn</h1>
+                        <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                    </div>
+                </div>	
+            </header>
+            <section class="container firstcolor" id="margin">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 id="subtitle">Preparatoria</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="container firstcolor" id="margin">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Conceptos básicos</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 id="title" hidden>Teorema de pitágoras</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                    <div class="row justify-content-between" id="theme2" hidden>
+                        <div class="col-md-7">
+                            <p><strong>El teorema de Pitágoras establece que en todo triángulo rectángulo, el cuadrado de la longitud de la hipotenusa es igual a la suma de los cuadrados de las respectivas longitudes de los catetos. Es la proposición más conocida entre las que tienen nombre propio en la matemática.</strong></p>
+                            <p><strong>La formula del teorema es h²=b²+a². Lo que hace el teorema de pitágoras es, mediante despeje de ecuaciones, hallar la incognita de un triángulo, sea la hipotenusa, o alguno de los 2 catetos.</strong></p>
+                            <p><strong>Recordemos que es necesario saber despejar ecuaciones y saber acerca de ecuaciones de primer grado antes de intenar llevar a cabo este procedimiento.</strong></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="../Sources/tpitagoras2.png" width="100%">
+                            <br>
+                            <br>
+                            <img src="../Sources/image008.jpg" width="100%">
+                        </div>
+                    </div>
+            </section>
+            <section class="container">
+                <br>
+                 <div class='row question' hidden>
+                       <div class='col-md-12'>
+                           <form>
+                               <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                               <br> 
+                               <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
+                               <button id="feedback">Enviar</button>
+                               <br>
+                               <div id="thanks"></div>
+                           </form> 
+                       </div>
+                   </div>
+            </section>
+            <!--Buttons-->
+                <section class="container center">
+                    <div class="row">
+                        <button class="col-md-12 firstbutton grandbutton">
+                            <h3><strong>Pulsa aquí para continuar</strong></h3>
+                        </button>
+                    </div>
+                </section>
+                <section class="container 2button">
+                    <div class='row'>
+                        <button class='col-md-12 grandbutton' id='secondbutton' hidden onclick="location.href='maththirdclass3.html'"><h3><strong>Siguiente --></strong><h3></button>
+                    </div>
+                </section>
+        <!--JQuery Scripts-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <!--Firebase Scripts-->
+        <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+        <script src="../javascript/firebase.js"></script>
+        <!--Local Scripts-->
+        <script src="../javascript/maththirdclass2.js"></script>
+</body>
+</html>

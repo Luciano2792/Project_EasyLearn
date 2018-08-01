@@ -17,6 +17,7 @@ jQuery(document).ready(function($){
 				.signInWithEmailAndPassword(email, password)
 				.then(function() {
 					alert('Bienvenido');
+					location.href="../Application/selector.html"
 				})
 				.catch(function(error) {
 					alert("Ocurrio un error inesperado");

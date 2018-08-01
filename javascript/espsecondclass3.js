@@ -41,7 +41,7 @@ jQuery(document).ready(function($){
 
             if($("#firstanswer3")[0].checked == true && $("#secondanswer4")[0].checked == true && $("#thirdanswer1")[0].checked == true){
                 alert("Has pasado esta asignatura!!");
-                location.href="first.html"
+                location.href="second.html"
             }
         }
     )

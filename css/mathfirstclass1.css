@@ -87,3 +87,7 @@ form{
     background-color: #FFF;
     cursor: pointer;
 }
+img{
+    display: block;
+    margin: 0 auto;
+}

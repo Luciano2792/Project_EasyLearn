@@ -1,10 +1,9 @@
-$("#firstbutton").click(function(){
+$(".firstbutton").click(function(){
     $("#title").prop("hidden", false);
     $("#theme1").prop("hidden", false);
-    $("#theme2").prop("hidden", false);
     $(".question").prop("hidden", false);
+    $(".center").remove(".center");
     $("#secondbutton").prop("hidden", false);
-    $("#fixmargin").remove("#fixmargin");
 });
 
 jQuery(document).ready(function($){
@@ -19,6 +18,6 @@ jQuery(document).ready(function($){
                         feedback:$('#exp').val(),
                     };
                     database.ref('feedbacks').push(feedback);
-                    $("#thanks").append("<h4 style='color: #FFF;'><strong> Gracias! </strong></h4>");
+                    $("#thanks").append("<strong> Gracias! </strong>");
         });
  });

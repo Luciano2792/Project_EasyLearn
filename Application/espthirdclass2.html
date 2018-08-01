@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EasyLearn | Aprende facil</title>
+    <!--Bootstrap y css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/espfirstclass1.css">
+</head>
+<body>
+        <header class="container firstcolor">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <h1>EasyLearn</h1>
+                        <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                    </div>
+                </div>	
+            </header>
+            <section class="container firstcolor" id="marginfix">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 id="subtitle">Preparatoria</h2>
+                        </div>
+                    </div>
+            </section>
+            <section class="container firstcolor">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Conceptos básicos</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 id="title" hidden>La entrevista</h2>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between" id="theme2" hidden>
+                        <div class="col-md-7"> 
+                            <p><strong>La entrevista es una reunión en la que participan 2 personas: el entrevistado y el entrevistador. El entrevistador interrogará al entrevistado acerca del tema que se esté tocando en ese preciso momento, ya sea música, fútbol, etc. </strong></p>
+                            <p><strong>Las entrevistas duran de acuerdo a lo que el entrevistado responda en cada pregunta y a las cosas en específico que suele preguntar un entrevistador. Las entrevistas que son de este tipo suelen ser hechas para mostrar en televisión o en radio la opinión de algun famoso sobre algun tema en específico.</strong></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="../Sources/entrevista-de-trabajo.jpg" width="100%">
+                            <br>
+                            <br>
+                            <img src="" width="100%">
+                        </div>
+                    </div>
+            </section>
+            <section class="container">
+                    <br>
+                     <div class='row question' hidden>
+                           <div class='col-md-12'>
+                               <form>
+                                   <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                                   <br> 
+                                   <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
+                                   <button id="feedback">Enviar</button>
+                                   <br>
+                                   <div id="thanks"></div>
+                               </form> 
+                           </div>
+                       </div>
+               </section>
+                <!--Buttons-->
+                <section class="container firstcolor" id="fixmargin">
+                    <div class="row">
+                        <button class="col-md-12 stylebutton" id="firstbutton">
+                            <h3><strong>Pulsa aquí para empezar</strong></h3>
+                        </button>
+                    </div>
+                </section>
+                <section class="container">
+                    <div class="row">
+                        <button class="col-md-12 stylebutton" id="secondbutton" onclick="location.href='espthirdclass3.html'" hidden>
+                            <h3><strong>Siguiente --></strong></h3>
+                        </button>
+                    </div>
+                </section>
+                
+                <!--JQuery Scripts-->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+                <!--Firebase Scripts-->
+                <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+                <script src="../javascript/firebase.js"></script>
+                <!--Local Script-->
+                <script src="../javascript/espfirstclass1.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EasyLearn | Aprende facil</title>
+    <!--Bootstrap and css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/mathfirstclass1.css">
+</head>
+<body>
+    <header class="container firstcolor">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <h1>EasyLearn</h1>
+                <h5>Aprende a tu ritmo, facil y sencillo</h5>
+            </div>
+        </div>	
+    </header>
+    <section class="container firstcolor" id="margin">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="subtitle">Preparatoria</h2>
+            </div>
+        </div>
+    </section>
+    <section class="container firstcolor" id="margin">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Conceptos básicos</h2>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="title" hidden>Expresiones algebraicas</h2>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+            <div class="row justify-content-between" id="theme1" hidden>
+                <div class="col-md-7">
+                    <p><strong>Una expresión algebraica contiene letras, números y signos. La manipulación de expresiones algebraicas tiene las mismas propiedades que la manipulación de expresiones numéricas, ya que las letras se comportan como si fuesen números. Las expresiones algebraicas que se tratarán aquí tendrán, por lo general, una o dos letras. Un ejemplo de expresión con una única letra es:</strong></p>
+                    <p><strong>- 3x2+4x−2−x2+7x</strong></p>
+                    <p><strong>Ante cualquier expresión, lo primero que debe hacerse es simplificarla, utilizando las propiedades de las expresiones, que son equivalentes a las propiedades de los números. En el caso del ejemplo, deben agruparse los términos con las mismas letras. Por un lado, debemos sumar 3x2 y −x2, mientras que, por otro lado, se debe sumar 4x y 7x:</strong></p>
+                    <p><strong>3x2−x2=2x2</strong></p>
+                    <p><strong>4x+7x=11x</strong></p>
+                </div>
+                <div class="col-md-4">
+                    <img src="../Sources/Exp2.png" width="100%">
+                    <img src="../Sources/expresionesalgebraicas-121002232927-phpapp02-thumbnail-4.jpg" width="100%">
+                </div>
+            </div>
+    </section>
+    <section class="container">
+        <br>
+         <div class='row question' hidden>
+               <div class='col-md-12'>
+                   <form>
+                       <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                       <br> 
+                       <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
+                       <button id="feedback">Enviar</button>
+                       <br>
+                       <div id="thanks"></div>
+                   </form> 
+               </div>
+           </div>
+    </section>
+    <!--Buttons-->
+        <section class="container center">
+            <div class="row">
+                <button class="col-md-12 firstbutton grandbutton">
+                    <h3><strong>Pulsa aquí para iniciar</strong></h3>
+                </button>
+            </div>
+        </section>
+        <section class="container 2button">
+            <div class='row'>
+                <button class='col-md-12 grandbutton' id='secondbutton' hidden onclick="location.href='maththirdclass2.html'"><h3><strong>Siguiente --></strong><h3></button>
+            </div>
+        </section>
+    <!--JQuery Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--Firebase Scripts-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script src="../javascript/firebase.js"></script>
+    <!--Local Scripts-->
+    <script src="../javascript/maththirdclass1.js"></script>
+</body>
+</html>
