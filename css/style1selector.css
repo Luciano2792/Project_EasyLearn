@@ -65,3 +65,23 @@ h4{
 	color: #FFF;
 	text-align: center;
 }
+#signout
+{
+	border: 4px solid #083198;
+	border-radius: 100px;
+	color: #FFF;
+	background-color: #083198;
+}
+#signout:hover{
+	border: 4px solid #083198;
+	border-radius: 20px;
+	color: #083198;
+	background-color: #FFF;
+	cursor: pointer;
+}
+.bcenter{
+	text-align: center;
+}
+h3{
+	font-size: 50px;
+}

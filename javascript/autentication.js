@@ -42,7 +42,8 @@ jQuery(document).ready(function($){
 				.auth()
 				.createUserWithEmailAndPassword(email, password)
 				.then(function() {
-					$('.message').append('<img src="../Sources/check.png" widht="20px" height="20px"> Has sido registrado exitosamente');
+					alert('Has sido registrado exitosamente');
+					location.href="../Autentication/login.html"
 				})
 				.catch(function(error) {
 					$('.message').append(error);
