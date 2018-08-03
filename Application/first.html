@@ -12,25 +12,25 @@
     <header class="container firstcolor">
         <div class="row">
             <div class="col-sm-12 col-xs-12">
-                <h1>EasyLearn</h1>
-                <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                <h1 id="titlefirst"></h1>
+                <h5 id="subtitlefirst"></h5>
             </div>
         </div>	
     </header>
     <div class="container question">
         <div class="row">
             <div class="col-md-12">
-                <h2>¿Qué deseas aprender hoy?</h2>
+                <h2 id="qfirst"></h2>
             </div>
         </div>
     </div>
     <section class="container buttons">
         <div class="row justify-content-between">
             <button class="col-md-5 math" onclick="location.href='mathfirstclass1.html'">
-                <h3>Matemáticas</h3>
+                <h3 id="mathfirst"></h3>
             </button>
             <button class="col-md-5 esp" onclick="location.href='espfirstclass1.html'">
-                <h3>Lengua Castellana</h3>
+                <h3 id="espfirst"></h3>
             </button>
         </div>
     </section>
@@ -45,9 +45,18 @@
     <section class="container">
         <div class="row">
             <button class="col-md-12 back" onclick="location.href='selector.html'">
-                <h2 id="titleb"><strong>Atrás</strong></h2>
+                <h2 id="titleb"><strong id="back"></strong></h2>
             </button>
         </div>
     </section>
+    <!--JQuery Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--Firebase Scripts-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script src="../javascript/firebase.js"></script>
+    <!--Local Scripts-->
+    <script src="../javascript/firstdb.js"></script>
 </body>
 </html>

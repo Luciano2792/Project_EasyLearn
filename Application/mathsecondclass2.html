@@ -13,15 +13,15 @@
     <header class="container firstcolor">
         <div class="row">
             <div class="col-sm-12 col-xs-12">
-                <h1>EasyLearn</h1>
-                <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                <h1 id="title1"></h1>
+                <h5 id="subtitle1"></h5>
             </div>
         </div>	
     </header>
     <section class="container firstcolor" id="margin">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="subtitle">Básica Secundaria</h2>
+                <h2 id="subtitle"></h2>
             </div>
         </div>
     </section>
@@ -35,20 +35,20 @@
     <section class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="title" hidden>Raices y Potenciación</h2>
+                <h2 id="title" hidden class="atitle"></h2>
             </div>
         </div>
     </section>
     <section class="container">
         <div class="row justify-content-between" id="theme2" hidden>
             <div class="col-md-7">
-                <p><strong>La potenciación solo se compone de una base y un exponente. La base es el número el cual será multiplicado por si mismo las veces que esté indicado en el exponente que estará ubicado en la esquina de arriba a la derecha de la base. Por ejemplo, 2*2=4 en forma de potencia sería: 2²=4; aquí el 2 es multiplicado por si mismo 2 veces y como se muestra en el ejemplo, el resultado, o en este caso la potencia es 4</strong></p>
-                <p><strong>Con las raices es algo parecido, en vez de encontrar el resultado entre la base y el exponente, la terminología cambia y ahora nos dan el resultado, el exponente para encontrar la base. Ahora el resultado se llama radicando, el exponente se llama índice y la base se llama radicando. Tomemos el ejemplo de arriba y hagamos la conversión a una raíz: 2²=4 = √4=2. Como se puede apreciar en el ejemplo, no aparece el índice donde debería, esto ¿A qué se debe?. Resulta que en la radicacion cuando el índice es 2 se deja ese espacio vacío en el radical (√).</strong></p>
-                <p><strong>En pocas palabras, la radicacion se trata de encontrar un número que multiplicado por si mismo las veces que se indica en el índice, de como resultado el radicando de la radicación.</strong></p>
+                <p><strong id="p1"></strong></p>
+                <p><strong id="p2"></strong></p>
+                <p><strong id="p3"></strong></p>
             </div>
             <div class="col-md-4">
-                <img src="../Sources/e7ERS4XrAtaxPNidtnaQ19VP.png" width="100%">
-                <img src="../Sources/Partes-de-la-raiz-cuadrada.jpg" width="100%">
+                <img src="" width="100%" id="i1">
+                <img src="" width="100%" id="i2">
             </div>
         </div>
     </section>
@@ -57,7 +57,7 @@
          <div class='row question' hidden>
                <div class='col-md-12'>
                    <form>
-                       <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                       <label><strong id="q1"></strong></label> 
                        <br> 
                        <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
                        <button id="feedback">Enviar</button>

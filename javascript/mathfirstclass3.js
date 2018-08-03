@@ -1,3 +1,33 @@
+var get_message = new Promise (function(res, rej) {
+    var message = database.ref("/Class/Primary/Math3/").once("value").then(function(snapshot){
+        var data = snapshot.val();
+
+		$('#title1').text(data.Title);
+		$("#subtitle1").text(data.Subtitle);
+		$("#subtitle").text(data.Primary);
+        $("#exam1").text(data.Exam1);
+        $("#1question").text(data.question1);
+        $("#respuesta1").text(data.answer1);
+        $("#respuesta2").text(data.answer2);
+        $("#respuesta3").text(data.answer3);
+        $("#respuesta4").text(data.answer4);
+        $("#2question").text(data.question2);
+        $("#respuesta5").text(data.answer5);
+        $("#respuesta6").text(data.answer6);
+        $("#respuesta7").text(data.answer7);
+        $("#respuesta8").text(data.answer8);
+        $("#3question").text(data.question3);
+        $("#respuesta9").text(data.answer9);
+        $("#respuesta10").text(data.answer10);
+        $("#respuesta11").text(data.answer11);
+        $("#respuesta12").text(data.answer12);
+        return res(data);
+
+    });
+    if (!message) {
+        return rej();}
+});
+
 jQuery(document).ready(function($){
     $("#bsubmit").click(
         function(e){

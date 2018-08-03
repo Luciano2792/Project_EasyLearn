@@ -9,15 +9,15 @@
 	<header class="container firstcolor">
 			<div class="row">
 				<div class="col-sm-12 col-xs-12">
-					<h1>EasyLearn</h1>
-					<h5>Aprende a tu ritmo, facil y sencillo</h5>
+					<h1 id="title1"></h1>
+					<h5 id="subtitle1"></h5>
 				</div>
 			</div>	
 	</header>
 	<figure class="container center">
 			<div class="row">
 				<div class="col-sm-12 col-xs-12">
-					<img src="Sources/firstimage.png" width="180px" height="180px">
+					<img src="" width="180px" height="180px" id="firstimage">
 				</div>
 			</div>
 	</figure>
@@ -25,7 +25,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-xs-12">
-					<p class="description imgspace"> <strong>EasyLearn es una plataforma de aprendizaje donde podras estudiar temas desde primaria hasta preparatoria de una manera facil y rápida</strong></p>
+					<p class="description imgspace"><strong id="description1"></strong></p>
 				</div>
 			</div>
 		</div>
@@ -38,18 +38,26 @@
 	<section class="container center">
 			<div class="row">
 				<div class="col-sm-12 col-xs-12">
-					<h6>¿Eres nuevo? Registrate y disfruta de la mejor experencia en aprendizaje</h6>
-					<button id="registro" onclick="location.href='Autentication/register.html'"><strong>Registrate</strong></button>
+					<h6 id="new1"></h6>
+					<button id="registro" onclick="location.href='Autentication/register.html'"><strong id="button1"></strong></button>
 				</div>
-			</div>	
+			</div>
 	</section>
 	<footer class="container">
 			<div class="row">
 				<div class="col-sm-12 col-xs-12">
-					<p class="center"><strong>¿Ya tienes una cuenta? <a href="Autentication/login.html">Iniciar sesión</a></strong></p> 
-					<button onclick="location.href='Application/selector.html'"><strong>Probar de forma anonima</strong></button>
+					<p class="center"><strong id="sign1"> </strong> <a href="Application/selector.html"><strong id="sign2"></strong></a></p> 
 				</div>
 			</div>
 	</footer>
+	<!--JQuery Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--Firebase Scripts-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+	<script src="javascript/firebase.js"></script>
+	<!--Local Script-->
+	<script src="javascript/testingreadfirebase.js"></script>
 </body>
 </html>

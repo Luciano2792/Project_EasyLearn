@@ -13,15 +13,15 @@
         <header class="container firstcolor">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12">
-                        <h1>EasyLearn</h1>
-                        <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                        <h1 id="title1"></h1>
+                        <h5 id="subtitle1"></h5>
                     </div>
                 </div>	
             </header>
             <section class="container firstcolor" id="marginfix">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 id="subtitle">Preparatoria</h2>
+                            <h2 id="subtitle"></h2>
                         </div>
                     </div>
             </section>
@@ -35,19 +35,16 @@
             <section class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 id="title" hidden>La Entrevista</h2>
+                            <h2 id="title" hidden class="atitle"></h2>
                         </div>
                     </div>
                     <div class="row justify-content-between" id="theme2" hidden>
                         <div class="col-md-7"> 
-                            <p><strong>La entrevista es una reunión en la que participan 2 personas: el entrevistado y el entrevistador. El entrevistador interrogará al entrevistado acerca del tema que se esté tocando en ese preciso momento, ya sea música, fútbol, etc. </strong></p>
-                            <p><strong>Las entrevistas duran de acuerdo a lo que el entrevistado responda en cada pregunta y a las cosas en específico que suele preguntar un entrevistador. Las entrevistas que son de este tipo suelen ser hechas para mostrar en televisión o en radio la opinión de algun famoso sobre algun tema en específico.</strong></p>
+                            <p><strong id="p1"></strong></p>
+                            <p><strong id="p2"></strong></p>
                         </div>
                         <div class="col-md-4">
-                            <img src="../Sources/entrevista-de-trabajo.jpg" width="100%">
-                            <br>
-                            <br>
-                            <img src="" width="100%">
+                            <img src="" width="100%" id="i1">
                         </div>
                     </div>
             </section>
@@ -56,7 +53,7 @@
                      <div class='row question' hidden>
                            <div class='col-md-12'>
                                <form>
-                                   <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                                   <label><strong id="q1"></strong></label> 
                                    <br> 
                                    <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
                                    <button id="feedback">Enviar</button>
@@ -90,6 +87,6 @@
                 <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
                 <script src="../javascript/firebase.js"></script>
                 <!--Local Script-->
-                <script src="../javascript/espfirstclass1.js"></script>
+                <script src="../javascript/espthirdclass2.js"></script>
 </body>
 </html>

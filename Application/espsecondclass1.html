@@ -13,15 +13,15 @@
     <header class="container firstcolor">
         <div class="row">
             <div class="col-sm-12 col-xs-12">
-                <h1>EasyLearn</h1>
-                <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                <h1 id="title1"></h1>
+                <h5 id="subtitle1"></h5>
             </div>
         </div>	
     </header>
     <section class="container firstcolor" id="marginfix">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 id="subtitle">Básica Secundaria</h2>
+                    <h2 id="subtitle"></h2>
                 </div>
             </div>
     </section>
@@ -35,20 +35,20 @@
     <section class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="title" hidden>Sinónimos y antónimos</h2>
+                <h2 id="title" hidden class="atitle"></h2>
             </div>
         </div>
         <div class="row justify-content-between" id="theme1" hidden>
             <div class="col-md-7"> 
-                <p><strong>Los sinónimos, sin profundizar mucho en ello, es tomar una palabra y reunir palabras relacionadas que signifiquen lo mismso, pero que sean palabras totalmente diferentes a la primera. Por ejemplo: Voy a tomar la palabra amor y voy a buscar palabras que signifiquen lo mismo o esté muy cerca al significado, algunos sinónimos de amor serían: cariño, afecto, amistad, etc.</strong></p>
-                <p><strong>En cambio, los antónimos es tomar la misma palabra y buscar significados totalmente contrarios a lo que realmente significa la palabra. Volvamos a coger la palabra amor, algunos de sus antónimos serían: repugnancia, odio, desprecio, etc.</strong></p>
-                <p><strong>La utilidad que tienen los sinónimos y los antónimos en un caso particular donde estemos redactando un texto, o algo parecido es que no repitamos tanto una palabra en una oración o un párrafo, la idea con los sinónimos y los antónimos es que busques palabras que signifiquen lo mismo o muy parecido, pero que sean palabras distintas a lo habitual en tu párrafo</strong></p>
+                <p><strong id="p1"></strong></p>
+                <p><strong id="p2"></strong></p>
+                <p><strong id="p3"></strong></p>
             </div>
             <div class="col-md-4">
-                <img src="../Sources/c47ae5e38a7a75d3ce0edd8d61307db8.jpg" width="100%">
+                <img src="" width="100%" id="i1">
                 <br>
                 <br>
-                <img src="../Sources/images.png" width="100%">
+                <img src="" width="100%" id="i2">
             </div>
         </div>
     </section>
@@ -57,7 +57,7 @@
          <div class='row question' hidden>
                <div class='col-md-12'>
                    <form>
-                       <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                       <label><strong id="q1"></strong></label> 
                        <br> 
                        <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
                        <button id="feedback">Enviar</button>
@@ -91,6 +91,6 @@
     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
 	<script src="../javascript/firebase.js"></script>
     <!--Local Script-->
-    <script src="../javascript/espfirstclass1.js"></script>
+    <script src="../javascript/espsecondclass1.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 var get_message = new Promise (function(res, rej) {
-    var message = database.ref("/Class/Prep/Math1").once("value").then(function(snapshot){
+    var message = database.ref("/Class/Prep/Esp1").once("value").then(function(snapshot){
         var data = snapshot.val();
 
         $('#title1').text(data.Title);
@@ -9,8 +9,6 @@ var get_message = new Promise (function(res, rej) {
         $("#p1").text(data.P1);
         $("#p2").text(data.P2);
         $("#p3").text(data.P3);
-        $("#p4").text(data.P4);
-        $("#p5").text(data.P5);
         $("#i1").attr("src", data.i1);
         $("#i2").attr("src", data.i2);
         $("#q1").text(data.q1);
@@ -22,12 +20,13 @@ var get_message = new Promise (function(res, rej) {
         return rej();}
 });
 
-$(".firstbutton").click(function(){
+$("#firstbutton").click(function(){
     $("#title").prop("hidden", false);
     $("#theme1").prop("hidden", false);
+    $("#theme2").prop("hidden", false);
     $(".question").prop("hidden", false);
-    $(".center").remove(".center");
     $("#secondbutton").prop("hidden", false);
+    $("#fixmargin").remove("#fixmargin");
 });
 
 jQuery(document).ready(function($){
@@ -42,6 +41,6 @@ jQuery(document).ready(function($){
                         feedback:$('#exp').val(),
                     };
                     database.ref('feedbacks').push(feedback);
-                    $("#thanks").append("<strong> Gracias! </strong>");
+                    $("#thanks").append("<h4 style='color: #FFF;'><strong> Gracias! </strong></h4>");
         });
  });

@@ -13,15 +13,15 @@
     <header class="container firstcolor">
         <div class="row">
             <div class="col-sm-12 col-xs-12">
-                <h1>EasyLearn</h1>
-                <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                <h1 id="title1"></h1>
+                <h5 id="subtitle1"></h5>
             </div>
         </div>	
     </header>
     <section class="container firstcolor" id="marginfix">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 id="subtitle">Preparatoria</h2>
+                    <h2 id="subtitle"></h2>
                 </div>
             </div>
     </section>
@@ -35,20 +35,20 @@
     <section class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 id="title" hidden>El debate</h2>
+                    <h2 id="title" hidden class="atitle"></h2>
                 </div>
             </div>
             <div class="row justify-content-between" id="theme1"hidden>
                 <div class="col-md-7"> 
-                    <p><strong>El debate es un acto de comunicación y exposición de ideas diferentes sobre un mismo tema entre dos o más personas. El que sea más completo a medida que los argumentos expuestos vayan aumentando en cantidad y en solidez de sus motivos; al final de todos los argumentos expuestos por cada una de las personas, el intermediario deberá llegar a un fijo acuerdo.</strong></p>
-                    <p><strong>Suelen haber 2 tipos de debate; el primero trata sobre un debate moderado, donde surge un moderador que fomenta el orden en el debate para evitar inconvenientes, y el segundo trata sobre un debate sin planeación previa donde prima la libertad de argumentación, pero pueden surgir malentendidos.</strong></p>
-                    <p><strong>En los debates mas que todo se busca llegar a un acuerdo entre las personas que estén participando de este y así no tener un debate repentino donde el debate se convierta en una discusión y los participantes terminen totalmente en desacuerdo con los demás</strong></p>
+                    <p><strong id="p1"></strong></p>
+                    <p><strong id="p2"></strong></p>
+                    <p><strong id="p3"></strong></p>
                 </div>
                 <div class="col-md-4">
-                    <img src="../Sources/Debatespresidenciables.jpg" width="100%">
+                    <img src="" width="100%" id="i1">
                     <br>
                     <br>
-                    <img src="../Sources/dos-and-donts.png" width="100%">
+                    <img src="" width="100%" id="i2">
                 </div>
             </div>
     </section>
@@ -57,7 +57,7 @@
              <div class='row question' hidden>
                    <div class='col-md-12'>
                        <form>
-                           <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                           <label><strong id="q1"></strong></label> 
                            <br> 
                            <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
                            <button id="feedback">Enviar</button>
@@ -91,6 +91,6 @@
         <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
         <script src="../javascript/firebase.js"></script>
         <!--Local Script-->
-        <script src="../javascript/espfirstclass1.js"></script>
+        <script src="../javascript/espthirdclass1.js"></script>
 </body>
 </html>

@@ -29,3 +29,8 @@ button:hover{
 	background-color: #FFF;
 	cursor: pointer;
 }
+h4{
+	text-align: center;
+	color: #FFF;
+	margin-top: 20px;
+}

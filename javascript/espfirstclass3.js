@@ -1,3 +1,34 @@
+var get_message = new Promise (function(res, rej) {
+    var message = database.ref("/Class/Primary/Esp3").once("value").then(function(snapshot){
+        var data = snapshot.val();
+
+        $('#title1').text(data.Title);
+        $("#subtitle1").text(data.Subtitle);
+        $("#subtitle").text(data.Primary);
+        $("#q1").text(data.q1);
+        $("#q2").text(data.q2);
+        $("#q3").text(data.q3);
+        $("#a1").text(data.a1);
+        $("#a2").text(data.a2);
+        $("#a3").text(data.a3);
+        $("#a4").text(data.a4);
+        $("#a5").text(data.a5);
+        $("#a6").text(data.a6);
+        $("#a7").text(data.a7);
+        $("#a8").text(data.a8);
+        $("#a9").text(data.a9);
+        $("#a10").text(data.a10);
+        $("#a11").text(data.a11);
+        $("#a12").text(data.a12);
+
+        
+        return res(data);
+
+    });
+    if (!message) {
+        return rej();}
+});
+
 jQuery(document).ready(function($){
     $("#bsubmit").click(
         function(e){

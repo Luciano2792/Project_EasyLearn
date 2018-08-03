@@ -12,22 +12,22 @@
     <header class="container firstcolor">
         <div class="row">
             <div class="col-sm-12 col-xs-12">
-                <h1>EasyLearn</h1>
-                <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                <h1 id="title1"></h1>
+                <h5 id="subtitle1"></h5>
             </div>
         </div>
     </header>
     <section class="container">
         <div class="row">
             <div class="col-md-12 question">
-                <h2>¿Qué clase de conceptos buscas?</h2>
+                <h2 id="subtitle2"></h2>
             </div>
         </div>
     </section>
     <section class="container">
         <div class="row">
             <button class="col-md-12 first" onclick="location.href='first.html'">
-                <h4>Básica primaria</h4>
+                <h4 id="first"></h4>
             </button>
             <div class="col-md-12" id="backgroundyellow"></div>
         </div>
@@ -35,7 +35,7 @@
     <section class="container">
         <div class="row">
             <button class="col-md-12 second" onclick="location.href='second.html'">
-                <h4>Básica secundaria</h4>
+                <h4 id="second"></h4>
             </button>
             <div class="col-md-12" id="backgroundorange"></div>
         </div>
@@ -43,22 +43,24 @@
     <section class="container">
         <div class="row">
             <button class="col-md-12 third" onclick="location.href='third.html'">
-                <h4>Preparatoria</h4>
+                <h4 id="third"></h4>
             </button>
             <div class="col-md-12" id="backgroundred"></div>
         </div>
     </section>
     <section class="container">
         <div class="row">
-            <button  class=""id="signout"><h3><strong>Cerrar sesión</strong></h3></button>
+            <button id="signout"><h3><strong id="signout1"></strong></h3></button>
         </div>
     </section>
     <!--JQuery Scripts-->
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-            <!--Firebase Scripts-->
-            <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
-            <script src="../javascript/firebase.js"></script>
-            <script type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--Firebase Scripts-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script src="../javascript/firebase.js"></script>
+    <!--Local Scripts-->
+    <script type="text/javascript" src="../javascript/checklogin.js"></script>
+    <script src="../javascript/testingreadfirebase.js"></script>
 </html>

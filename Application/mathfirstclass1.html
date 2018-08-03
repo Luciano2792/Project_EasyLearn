@@ -13,15 +13,15 @@
     <header class="container firstcolor">
         <div class="row">
             <div class="col-sm-12 col-xs-12">
-                <h1>EasyLearn</h1>
-                <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                <h1 id="title1"></h1>
+                <h5 id="subtitle1"></h5>
             </div>
         </div>	
     </header>
     <section class="container firstcolor" id="margin">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="subtitle">Básica Primaria</h2>
+                <h2 id="subtitle"></h2>
             </div>
         </div>
     </section>
@@ -35,7 +35,7 @@
     <section class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="title" hidden>Sumar</h2>
+                <h2 id="title" hidden class="atitle"></h2>
             </div>
         </div>
     </section>
@@ -49,11 +49,11 @@
     <div class="container">
         <div class="row sumar justify-content-between" hidden>
             <div class='col-md-7'>
-                <p><strong>Miralo con un ejemplo de la vida real. Imagina que tienes 4 manzanas, tu amigo te regala 2. Ahora ¿Cuántas manzanas tienes tú?. Exacto, tendrías 6 (4+2=6), pero ¿Por qué es esto?. Resulta que la suma consiste en tomar un número y adicionarle otro número, de forma que se juntan dos números en uno.</strong></p>
-                <p><strong>Cabe destacar que para escribir una suma de forma algebraica se representa con el signo '+'</strong></p>
+                <p><strong id="firstp"></strong></p>
+                <p><strong id="secondp"></strong></p>
             </div>
             <div class='col-md-4'>
-                <img src='../Sources/sumanzanas.png' width='90%' height='90%'>
+                <img src='' width='90%' height='90%' id="mathfirstimage">
             </div>
         </div>
     </div>
@@ -61,17 +61,17 @@
     <section class="container">
         <div class="row justify-content-between" id="restar" hidden>
             <div class='col-md-12'>
-                <h2 id='title'>Restar</h2>
+                <h2 id='title' class="btitle"></h2>
             </div>
             <div class='col-md-7'>
-                <p><strong>Tomemos el mismo ejemplo de arriba, pero en lugar de que tu amigo te de 2 manzanas, tú le das 2 manzanas a él. Ahora, ¿Cuántas manzanas tienes tú?. Exacto, tendrías sólo 2 (4-2=2), pero ¿Por qué esto?. Resulta que la resta consiste en tomar un número y quitarle otro número, es decir, quitando una cantidad de otra. Cabe destacar que para escribir una resta de forma algebraica se representa con el signo '-'</strong></p>
+                <p><strong id="thirdp"></strong></p>
             </div>
-            <div class='col-md-3'><img src='../Sources/Ejemplo-de-resta1.jpg' width='90%' height='90%'></div>
+            <div class='col-md-3'><img src='' width='90%' height='90%' id="mathsecondimage"></div>
         </div>
     </section>
     <section class="container 2button">
         <div class='row empty'>
-            <button class='col-md-12 grandbutton' id='secondbutton' hidden><h3><strong>Ver más</strong><h3></button>
+            <button class='col-md-12 grandbutton' id='secondbutton' hidden><h3><strong id="seemore">Ver más</strong><h3></button>
         </div>
     </section>
     <section class="container">
@@ -79,7 +79,7 @@
           <div class='row question' hidden>
                 <div class='col-md-12'>
                     <form>
-                        <label><strong>Cuéntanos, ¿Qué te ha parecido la experiencia?</strong></label> 
+                        <label><strong id="exp1"></strong></label> 
                         <br> 
                         <input style='margin-bottom: 50px;' type='text' name='question' placeholder='Tu respuesta' id="exp"> 
                         <button id="feedback">Enviar</button>

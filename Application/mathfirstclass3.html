@@ -13,22 +13,22 @@
     <header class="container firstcolor">
         <div class="row">
             <div class="col-sm-12 col-xs-12">
-                <h1>EasyLearn</h1>
-                <h5>Aprende a tu ritmo, facil y sencillo</h5>
+                <h1 id="title1"></h1>
+                <h5 id="subtitle1"></h5>
             </div>
         </div>	
     </header>
     <section class="container firstcolor" id="margin">
         <div class="row">
             <div class="col-md-12">
-                <h2 id="subtitle">Básica Primaria</h2>
+                <h2 id="subtitle"></h2>
             </div>
         </div>
     </section>
     <section class="container firstcolor" id="margin">
         <div class="row" id="fixmargin">
             <div class="col-md-12">
-                <h2>Examen general</h2>
+                <h2 id="exam1"></h2>
                 <h5>Pongamos a prueba lo aprendido</h5>
              </div>
         </div>
@@ -36,50 +36,50 @@
     <section class="container">
         <form class="row">
             <div class="col-md-4 redborder">
-                <p><strong>1- De acuerdo con los conceptos anteriores, se puede decir que:</strong></p>
+                <p><strong id="1question"></strong></p>
                 <br>
-                <input type="radio" name="radio1" id="firstanswer1"><label for="firstanswer1" value="firstanswer1"><strong>La suma y la resta son lo mismo, pero están expresadas de forma diferente.</strong></label>
-                <br>
-                <br>
-                <input type="radio" name="radio1" id="secondanswer1"><label for="secondanswer1" value="secondanswer1"><strong>Una resta se representa con el símbolo "*"</strong></label>
+                <input type="radio" name="radio1" id="firstanswer1"><label for="firstanswer1" value="firstanswer1" ><strong id="respuesta1"></strong></label>
                 <br>
                 <br>
-                <input type="radio" name="radio1" id="thirdanswer1"><label for="thirdanswer1" value="thirdanswer1"><strong>La mutliplicación es la operación inversa a la división, es decir, hace todo lo contrario a la división</strong></label>
+                <input type="radio" name="radio1" id="secondanswer1"><label for="secondanswer1" value="secondanswer1"><strong id="respuesta2"></strong></label>
                 <br>
                 <br>
-                <input type="radio" name="radio1" id="fourthanswer1"><label for="fourthanswer1" value="fourthanswer1"><strong>La mutliplicación se representa con el símbolo "/"</strong></label>
+                <input type="radio" name="radio1" id="thirdanswer1"><label for="thirdanswer1" value="thirdanswer1"><strong id="respuesta3"></strong></label>
+                <br>
+                <br>
+                <input type="radio" name="radio1" id="fourthanswer1"><label for="fourthanswer1" value="fourthanswer1"><strong id="respuesta4"></strong></label>
             <div id="alert1"></div>
             </div>
             <div class="col-md-4 redborder">
-                <p><strong>2- ¿Con qué símbolo se representa la división?</strong></p>
+                <p><strong id="2question"></strong></p>
                 <br>
                 <br>
-                <input type="radio" name="radio2" id="firstanswer2"><label for="firstanswer2"><strong>"/"</strong></label>
+                <input type="radio" name="radio2" id="firstanswer2"><label for="firstanswer2"><strong id="respuesta5"></strong></label>
                 <br>
                 <br>
-                <input type="radio" name="radio2" id="secondanswer2"><label for="firstanswer2"><strong>"*"</strong></label>
+                <input type="radio" name="radio2" id="secondanswer2"><label for="firstanswer2"><strong id="respuesta6"></strong></label>
                 <br>
                 <br>
-                <input type="radio" name="radio2" id="thirdanswer2"><label for="firstanswer2"><strong>"+"</strong></label>
+                <input type="radio" name="radio2" id="thirdanswer2"><label for="firstanswer2"><strong id="respuesta7"></strong></label>
                 <br>
                 <br>
-                <input type="radio" name="radio2" id="fourthanswer2"><label for="firstanswer2"><strong>"-"</strong></label>
+                <input type="radio" name="radio2" id="fourthanswer2"><label for="firstanswer2"><strong id="respuesta8"></strong></label>
                 <div id="alert2"></div>
             </div>
             <div class="col-md-4 redborder" >
-                <p><strong>¿Cuál es la definición corta de restar?</strong></p>
+                <p><strong id="3question"></strong></p>
                 <br>
                 <br>
-                <input type="radio" name="radio3" id="firstanswer3"><label for="firstanswer3"><strong>Adicionarle un número a otro</strong></label>
+                <input type="radio" name="radio3" id="firstanswer3"><label for="firstanswer3"><strong id="respuesta9"></strong></label>
                 <br>
                 <br>
-                <input type="radio" name="radio3" id="secondanswer3"><label for="secondanswer3"><strong>Partir un número en partes iguales</strong></label>
+                <input type="radio" name="radio3" id="secondanswer3"><label for="secondanswer3"><strong id="respuesta10"></strong></label>
                 <br>
                 <br>
-                <input type="radio" name="radio3" id="thirdanswer3"><label for="thirdanswer3"><strong>Sumarse un número si mismo la cantidad de veces que indique el otro número</strong></label>
+                <input type="radio" name="radio3" id="thirdanswer3"><label for="thirdanswer3"><strong id="respuesta11"></strong></label>
                 <br>
                 <br>
-                <input type="radio" name="radio3" id="fourthanswer3"><label for="fourthanswer3"><strong>Quitarle un número a otro</strong></label>
+                <input type="radio" name="radio3" id="fourthanswer3"><label for="fourthanswer3"><strong id="respuesta12"></strong></label>
                 <div id="alert3"></div>
             </div>
         </form>
@@ -93,6 +93,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <!--Firebase Scripts-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <script src="../javascript/firebase.js"></script>
     <!--Local Scripts-->
     <script src="../javascript/mathfirstclass3.js"></script>
 </body>
